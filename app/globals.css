@@ -34,6 +34,17 @@ p {
   margin-top: -20px;
 }
 
+.hack-logo {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: flex-end; 
+  padding-bottom: 20px;
+}
+
 #yay {
   color: (255, 0, 0, 0.607);
   font-size: 35px;

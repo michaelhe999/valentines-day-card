@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Will You Be My Valentine?",
+  title: "Will You Be My ACM Valentine?",
 };
 
 export default function RootLayout({
@@ -17,7 +18,12 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="apple-touch-icon" ></link>
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <div className="hack-logo">
+          <Image src="/ACMHack.png" alt="acm logo" width={130} height={40} />
+        </div>
+      </body>
     </html>
   );
 }
