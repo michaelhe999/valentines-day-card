@@ -3,7 +3,7 @@ import Image from "next/image";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Will You Be My ACM Valentine?",
+  title: "Will You Be My Valentine?",
 };
 
 export default function RootLayout({
